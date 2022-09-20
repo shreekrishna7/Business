@@ -1,0 +1,41 @@
+
+#facilities{
+    min-width: 100vh;
+    /* background-color: rgb(252, 240, 244); */
+    background:rgba(0,0,0,0.7) url(./images/veg-stem-momos.jpg);
+    background-size: cover;
+    background-blend-mode:darken ;
+    height: 615px;
+    color:green;
+}
+
+u{
+    color: rgb(255, 0, 149);
+    font-weight: bold;
+}
+
+.all{
+    min-width: 100vh;
+    background-image:linear-gradient(45deg,red,yellow,blue);
+    color: black;
+}
+.all:hover{
+    font-size: larger;
+}
+
+.foot1{
+    min-width: 100vh;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+
+.foot2{
+    
+    display: flex;
+gap: 9px;
+text-align: center;
+justify-content: center;
+}

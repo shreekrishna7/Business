@@ -17,14 +17,7 @@ if (isset($_GET['logout'])) {
 
 
 <?php
-
-$link = mysqli_connect("localhost", "root", "", "collection");
-
-// if (!$link) {
-//     die("Sorry we failed to connect: " . mysqli_connect_error());
-// } else {
-//     echo "connection was successful";
-// }
+include 'datacollection.php';
 
 if (isset($_GET['delete'])) {
     $sn = $_GET['delete'];
